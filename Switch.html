@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+    
+        
+        function day_of_the_week(){
+            var day = document.getElementById('day').value;
+            var result;
+            var day = parseInt(day);//converts string to integer   
+        switch(day){
+            case 1: 
+                result = "Monday";
+                break;
+            case 2:
+                result = "Tuesday";
+                break;
+            case 3: 
+                result = "Wednesday";
+                break;
+            case 4: 
+                result = "Thursday";
+                break;
+            case 5: 
+                result = "Friday";
+                break;
+            case 6: 
+                result = "Saturday";
+                break;
+            case 7: 
+                result = "Sunday";
+                break;
+            default: //if none of the cases are true
+                result = "Invalid Day";
+        }
+        document.getElementById('result').innerText = result;
+    }
+    </script>
+</head>
+<body>
+    <h1>Day of the week</h1>
+    <input type="text" id="day" placeholder="Enter a day number">
+    <button onclick="day_of_the_week()">Check</button>
+    <p id="result"></p>
+    
+</body>
+</html>

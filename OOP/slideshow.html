@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SlideShow</title>
+    <script>
+        var pictures = ["https://upload.wikimedia.org/wikipedia/commons/3/3f/Acorus_calamus_spadix.jpg"];
+        function load() {
+            document.getElementById("image_canvas").getElementsByTagName("img")[0].src = pictures[0];
+        }
+        window.addEventListener("click", function() {console.log("Clicked on the page...");});
+    </script>
+</head>
+<body onload="load();">
+    <h1 id="myheader">my pictures</h1>
+    <div id="image_canvas" style="width: 750px; height: 470px; margin: 2px auto;">
+        <img style="height: 100%; width: 100%;" />
+    </div>
+</body>
+</html>

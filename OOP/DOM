@@ -1,0 +1,26 @@
+DOM - Document Object Model
+Access and Manipulate Elements on Webpage
+
+HTML-DOM
+HTML content ------> Tree Like Structure before printing---->i.e known as DOM
+
+<document class="html"></document>
+document.getElementById("");
+
+<set-attribute></set-attribute>
+childNodes[]
+firstChild & lastChild
+nextSibling
+getElementByTagName
+getElementByName
+
+AJAX- Asynchronous JS and XML
+helps in design and implementation of the web apps
+AJAX is a technique to update parts of a web page, without loading the entire web page.
+AJAX is a combination of several technologies like JavaScript, HTML, CSS, and XML.
+
+JSON 
+JSON stands for JavaScript Object Notation.
+JSON is a lightweight data interchange format.
+JSON is easy to read and write.
+JSON is a text-based data format.
