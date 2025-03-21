@@ -1,0 +1,2 @@
+# JSNotes
+From Obii Kriationz
